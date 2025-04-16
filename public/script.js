@@ -2,7 +2,7 @@ let products = [];
 
 async function loadProducts() {
   try {
-    const response = await fetch("products.json");
+    const response = await fetch("/product.json");
     if (!response.ok) throw new Error("Unable to load product data");
     products = await response.json();
     renderProducts();

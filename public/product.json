@@ -1,0 +1,30 @@
+[
+    {
+      "id": 1,
+      "name": "Wireless Headphones",
+      "category": "electronics",
+      "brand": "Sony",
+      "price": 99.99,
+      "inventory": 5,
+      "image": "https://via.placeholder.com/250x180?text=Headphones"
+    },
+    {
+      "id": 2,
+      "name": "Smartwatch",
+      "category": "electronics",
+      "brand": "Apple",
+      "price": 149.99,
+      "inventory": 0,
+      "image": "https://via.placeholder.com/250x180?text=Smartwatch"
+    },
+    {
+      "id": 3,
+      "name": "Sneakers",
+      "category": "fashion",
+      "brand": "Nike",
+      "price": 69.99,
+      "inventory": 15,
+      "image": "https://via.placeholder.com/250x180?text=Sneakers"
+    }
+  ]
+  
