@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MyShop</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>MyShop</h1>
+  </header>
+
+  <main>
+    <!-- Category Filter -->
+    <div class="controls">
+      <select id="categorySelect">
+        <option value="">All Categories</option>
+        <option value="electronics">Electronics</option>
+        <option value="fashion">Fashion</option>
+      </select>
+
+      <select id="sortSelect">
+        <option value="">Sort By</option>
+        <option value="price">Price</option>
+        <option value="inventory">Inventory</option>
+      </select>
+    </div>
+
+    <!-- Product List -->
+    <section id="product-list" class="products"></section>
+
+    <!-- Admin Panel -->
+    <div class="admin">
+      <h2>Admin Panel</h2>
+      <form id="adminForm">
+        <input type="text" id="name" placeholder="Product Name" required />
+        <input type="text" id="category" placeholder="Category" required />
+        <input type="text" id="brand" placeholder="Brand" required />
+        <input type="number" id="price" placeholder="Price" required />
+        <input type="number" id="inventory" placeholder="Inventory" required />
+        <input type="text" id="image" placeholder="Image URL" required />
+        <button type="submit">Add Product</button>
+      </form>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 MyShop</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
